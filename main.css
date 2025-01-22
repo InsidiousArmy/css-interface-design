@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto|Merriweather');
+
+html {
+    font-size: 100%;
+    line-height: 1.4;
+    font-family: Garamond, Georgia, "Times New Roman", serif;
+    background: #111;
+    background-image: url("../images/how-much.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    text-align: left;
+    hyphens: auto;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    min-width: 480px;
+    max-width: 960px;
+    margin: 0 auto;
+    background: #eee;
+}
+
+header {
+    background: #5C8096;
+    padding: 50px;
+    text-shadow: 0 1px 1px #A2C0CE;
+}
+
+header p, header h2, header h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    font-size: 2.4rem;
+    margin-top: 0;
+}
+
+section {
+    padding: 0 50px;
+}
+
+section h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+}
+
+section p {
+    margin-top: 0;
+}
+
+footer {
+    background: #333;
+    color: #eee;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+footer h3 {
+    font-size: 1.4em;
+}
+
+footer p, footer small {
+    font-family: 'Roboto', sans-serif;
+}
